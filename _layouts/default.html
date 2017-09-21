@@ -1,0 +1,34 @@
+{% include site-vars.liquid %}<!DOCTYPE html>
+<html>
+<head>
+{% include head.html %}
+</head>
+<body>
+
+<div class="tcOuter">
+	<div class="tcInner">
+			
+		<div class="tcMain">
+			
+			<div class="tcNarrowModeHeaderSpacer tcNarrowOnly"></div>
+		
+			<div class="tcMenuPanel">{% include mainmenu.html %}</div>
+			<div class="tcContentPanel">
+				<!--{% if page.id == "home" %}-->
+				<div class="tcContent">
+					<!--{% else %}-->	
+					<!--<div class="tcContent tcFrontPage">-->
+					<!--{%endif%}-->
+					<div class="tcContentMain">{{ content }}</div>
+					<br/>
+				</div>
+			</div>
+			<div id="tcNarrowModeMenu" class="tcNarrowOnly" style="display:none;">{% include mainmenu.html %}</div>
+		
+		</div>
+		
+	</div><!-- inner -->
+</div><!-- outer -->
+
+</body>
+</html>
