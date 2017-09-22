@@ -1,14 +1,12 @@
 ---
 layout: default
 id: home
-redirect_from:
-  - /site/
 ---
 {% include site-links.md %}
 
 ## News
 
-- dec 28: [Lab 5](http://www.baidu.com) is out! The due time is 23:59:59 of Jan. 16.
+- dec 28: [Lab 5]({{baseurl}}/link) is out! The due time is 23:59:59 of Jan. 16.
 
 - dec 18: Lab 4 is out! The due time is 23:59:59 of Jan. 7.
 

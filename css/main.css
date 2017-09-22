@@ -19,6 +19,12 @@ html, body, div, object, iframe, jh1, jh2, jh3, jh4, jh5, jh6, jp, blockquote, j
 	box-sizing:border-box;
 }
 
+.read {
+	color: #FF8800;
+}
+.white{
+	color:white;
+}
 html, body
 {
 	height:100%;
@@ -330,7 +336,7 @@ h3 {
 }
 .tcButton a:hover
 {
-	jcolor:#ffffff !;
+	jcolor:#ffffff !important;
 }
 
 .tcFrontPageButtons

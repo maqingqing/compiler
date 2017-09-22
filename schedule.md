@@ -1,8 +1,6 @@
 ---
 layout: default
 id: schedule
-redirect_from:
-  - /site/
 ---
 {% include site-links.md %}
 
@@ -11,7 +9,7 @@ redirect_from:
 Tentative schedule, subject to change in the future.
 
 **LEC:** lecture material <br>
-**<font color="#FF8800" >REDA</font>:** text or papers to be read BEFORE each class <br>
+**<font class="read" >REDA</font>:** text or papers to be read BEFORE each class <br>
 **<font color="#888800" >HW</font>:** homework <br>
 **<font color="#0000FF" >QUIZ</font>:** quizzes <br>
 **<font color="#008800" >LAB</font>:**  lab out <br>

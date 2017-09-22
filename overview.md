@@ -1,8 +1,6 @@
 ---
 layout: default
 id: overview
-redirect_from:
-  - /site/
 ---
 {% include site-links.md %}
 
