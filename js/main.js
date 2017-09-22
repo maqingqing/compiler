@@ -65,7 +65,7 @@ function _refresh()
 	$contentPanel.css( "background-position-y", nHeaderHeight + "px" );
 	
 	nHeaderHeight = $( ".tcNarrowModeHeader" ).outerHeight();
-	$( ".tcNarrowModeHeaderSpacer" ).css( "height", nHeaderHeight + "px" );
+	// $( ".tcNarrowModeHeaderSpacer" ).css( "height", "73px" );
 	var nMenuHeight = $( window ).height() - nHeaderHeight;
 //	$( "#tcNarrowModeMenu" ).css( "height", nMenuHeight + "px" );
 	
@@ -119,7 +119,6 @@ function _showMenu( bShow )
 	}
 }
 
-//var g_aPages = [ "/", "/getting-started.html", "/downloads.html", "/docs", "/contrib", "/news", "/about.html", "/legalese.html", "/docs/member-faq.html", "/coc.html" ];
 var g_aPages = [ "/", "/overview.html", "/schedule.html", "/references.html" ];
 
 function _getCurrentPage()

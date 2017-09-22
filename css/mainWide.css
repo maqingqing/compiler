@@ -8,6 +8,11 @@
 /*
 // _isEnhanced()
 */
+
+	.tcInner
+	{
+		height:100%;
+	}
 #cssCheck
 {
 	font-weight:900;
