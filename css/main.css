@@ -272,15 +272,21 @@ h3 {
 
 .tcLogoArea
 {
-	height:245px;
-	padding-left:25px;
+	width:266px;
+	height:160px;
+	/*padding-left:25px;*/
+	text-align: center;
+	line-height:160px;
+	color:white;
+	font-size:40px;
+	font-weight:400;
 }
 
 .tcMenuItem
 {
 	border-bottom:1px solid #b9b9b9;
 	padding:0.2em;
-	font-size:1.6em;
+	font-size:1.5em;
 	padding-left:2em;
 	list-style-type:none;
 	list-style-position:inside;
