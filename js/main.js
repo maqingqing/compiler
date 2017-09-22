@@ -120,7 +120,7 @@ function _showMenu( bShow )
 }
 
 //var g_aPages = [ "/", "/getting-started.html", "/downloads.html", "/docs", "/contrib", "/news", "/about.html", "/legalese.html", "/docs/member-faq.html", "/coc.html" ];
-var g_aPages = [ "/", "/getting-started.html", "/downloads.html", "/docs", "/contrib", "/news", "/about.html", "/legalese.html", "/faq.html", "/coc.html" ];
+var g_aPages = [ "/", "/overview.html", "/schedule.html", "/references.html" ];
 
 function _getCurrentPage()
 {
